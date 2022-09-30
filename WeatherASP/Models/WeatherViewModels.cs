@@ -42,7 +42,7 @@
         public class Sys
         {
             public int Type { get; set; }
-            public int Id { get; set; }
+            public string Id { get; set; }
             public string Country { get; set; }
             public int Sunrise { get; set; }
             public int Sunset { get; set; }
@@ -60,7 +60,7 @@
             public int Dt { get; set; }
             public Sys Sys { get; set; }
             public int Timezone { get; set; }
-            public int Id { get; set; }
+            public string Id { get; set; }
             public string Name { get; set; }
             public int Cod { get; set; }
         }

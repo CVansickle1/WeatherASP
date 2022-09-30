@@ -47,6 +47,7 @@ namespace WeatherASP.Controllers
                 viewModel.Temp = (float)weatherResponse.Main.Temp;
                 viewModel.Weather = weatherResponse.Weather[0].Main;
                 viewModel.Wind = (float)weatherResponse.Wind.Speed;
+                viewModel.IconID = weatherResponse.Weather[0].Icon;
             }
             return View(viewModel);
         }
